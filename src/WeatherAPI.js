@@ -50,9 +50,9 @@ function WeatherAPI() {
     <div className="WeatherAPI">
       <h1>날씨 앱</h1>
       {/* 사용자가 도시를 입력할 수 있는 입력 필드 */}
-      <input type="text" placeholder="도시를 입력해주세요" value={city} onChange={inputChange}/>
+      <input type="text" placeholder="도시를 영어로 입력해주세요" value={city} onChange={inputChange}/>
       {/* 날씨 정보를 조회하는 버튼 */}
-      <button onClick={fetchWeatherData}>날씨 정보 확인</button>
+      <button onClick={fetchWeatherData}>Click</button>
 
       {/* 에러 메시지를 표시 */}
       {error && <p> {error} </p>}
